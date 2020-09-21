@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Layout 2</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- style.css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section class="main-section">
+		<div class="logo">
+			<img src="image/logo.png">
+			<hr class="logo-line">
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="checkout">
+					<div class="checkout-heading">
+						<h1>Checkout</h1>
+						<h6>Shipping Address</h6>
+						<hr>
+					</div>
+					<div class="checkout-form">
+						<form action="/action_page.php">
+							<label>Email Addresss<sup>*</sup></label>
+							<input type="email" name="firstname">
+							<p>You can create an account after checkout.</p>
+							<hr>
+
+							<label>First Name<sup>*</sup></label>
+							<input type="text" name="firstname">
+
+							<label>Last Name<sup>*</sup></label>
+							<input type="text" name="lastname">
+
+							<label>Company</label>
+							<input type="text" name="company">
+
+							<label>Street Address<sup>*</sup></label>
+							<input type="text" name="streetaddress">
+							<input type="text" name="streetaddress">
+
+							<label>City<sup>*</sup></label>
+							<input type="text" name="city">
+
+							<label>State/Province<sup>*</sup></label>
+							<select>
+								<option value="anand">Anand</option>
+								<option value="rajkot">Rajkot</option>
+								<option value="surat">Surat</option>
+							</select>
+
+							<label>Zip/Postal Code<sup>*</sup></label>
+							<input type="text" name="zipcode">
+
+							<label>Country</label>
+							<select>
+								<option value="india">India</option>
+								<option value="canada">Canada</option>
+								<option value="usa">USA</option>
+							</select>
+
+							<label>Phone Number<sup>*</sup></label>
+							<input type="text" name="phonenumber">
+
+							<label class="container-checkbox">My billing and shipping address arer the same
+								<input type="checkbox">
+								<span class="checkmark-checkbox"></span>
+							</label>
+
+							<h6 class="methods">Shipping Methods</h6>
+							<hr>
+							<h6 class="best-way">Best Way - <span>Table Rate $15.00</span></h6>
+							<h6 class="payment">Payment</h6>
+							<hr>
+							<label class="container-radio">Cash on Dellvery
+								<input type="radio" name="radio">
+								<span class="checkmark-radio"></span>
+								<p class="text-h1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							</label>
+							<hr>
+							<label class="container-radio">Pay by Paypal 
+								<input type="radio" name="radio">
+								<span class="checkmark-radio"></span>
+								<p class="text-h1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							</label>
+							<hr>
+							<label class="container-radio">Bnak Transfer
+								<input type="radio" name="radio">
+								<span class="checkmark-radio"></span>
+								<p class="text-h1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							</label>
+							<hr>
+							<label class="container-radio">Pay by Card
+								<input type="radio" name="radio">
+								<span class="checkmark-radio"></span>
+								<div class="text-h1">
+									<form>
+										<label>Name on Card<sup>*</sup></label><br>
+										<input type="text" name="phonenumber">
+
+										<label>Card Number	<sup>*</sup></label><br>
+										<input type="text" name="phonenumber">
+										<div class="text-h1-1">
+											<div class="row2">
+												<div>
+													<label>Expiration Date<sup>*</sup></label>
+													<select>
+														<option value="month">Month</option>
+													</select>
+												</div>
+												<div class="year">
+													<select>
+														<option value="year">Year</option>
+														<option value="2018">2018</option>
+														<option value="2019">2019</option>
+													</select>
+												</div>
+												<div>
+													<label>CVV/CVC<sup>*</sup></label><br>
+													<input type="text" name="phonenumber">
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</label>
+							<input type="submit" value="Place Order">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="table">
+					<table style="width:100%">
+						<tr>
+							<th>Order Summary</th>
+						</tr>
+						<tr>
+							<td>
+								<div class="row3">
+									<div><img src="image/001.jpg"></div>
+									<div class="row4">
+										<div class="tbl-col-2">
+											<p><span class="text-span">Burnishers</span></p><br>
+											<p><span class="text-span">Oty :</span> 1</p><br>
+											<p><span class="text-span">Color:</span> Yellow</p><br>
+										</div>
+										<div class="tbl-col-3"><span class="text-span">$2670.00</span></div>
+									</div>
+								</div>			
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3">Card Subtotal <span class="price">$2670.00</span></td>
+						</tr>
+						<tr>
+							<td colspan="3">Shipping Flat Rate - Fixed <span class="price">$5.00</span></td>
+						</tr>
+						<tr>
+							<td colspan="3">Order Total <span class="price">$2675.00</span></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
